@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <ol>
+            <!--Water Bottle-->
+            <div class="test_image1 col-xs-12" style="width: 100%; border-radius: 10px; padding: 30px;">
+                <li class="col-sm-4 col-xs-12">
+                    <b>
+                    Test Image-
+                </b>
+                <img src="bottle.jpeg" class="img-responsive" style="width: 120px; border-radius: 5px; margin-left: 100px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    <div id="result_google" style="background-color: white; border-radius: 10px; width: 90%;" class="btn btn-light">Output on<b> Google Lens</b>- Solvent in Chemical Reactions</div>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    <div id="result_google" style="background-color: white; border-radius: 10px; width: 90%;" class="btn btn-light">Output on<b> Mobile Net</b>- Water Bottle</div>
+                </h5>
+                <br>
+                <center style="font-size: 30px;">
+                    Result- Mobile Net was correct
+                </center>
+            </div>
+
+            <!--Mobile-->
+            <div class="test_image1 col-xs-12" style="width: 100%; border-radius: 10px; padding: 30px; margin-top: 20px;">
+                <li class="col-sm-4 col-xs-12">
+                    <b>
+                    Test Image-
+                </b>
+                <img src="Mobile.jpeg" class="img-responsive" style="width: 120px; border-radius: 5px; margin-left: 100px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    <div id="result_google" style="background-color: white; border-radius: 10px; width: 90%;" class="btn btn-light">Output on<b> Google Lens</b>- Camera Phone</div>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    <div id="result_google" style="background-color: white; border-radius: 10px; width: 90%;" class="btn btn-light">Output on<b> Mobile Net</b>- Mobile Phone</div>
+                </h5>
+                <br>
+                <center style="font-size: 30px;">
+                    Result- Draw
+                </center>
+            </div>
+
+<!--Geometry box-->
+<div class="test_image1 col-xs-12" style="width: 100%; border-radius: 10px; padding: 30px; margin-top: 20px;">
+    <li class="col-sm-4 col-xs-12">
+        <b>
+        Test Image-
+    </b>
+    <img src="geometry box.jpeg" class="img-responsive" style="width: 200px; border-radius: 5px; margin-left: 100px; height: 100px;">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">
+        <div id="result_google" style="background-color: white; border-radius: 10px; width: 90%;" class="btn btn-light">Output on<b> Google Lens</b>- Doms Geometry Box</div>
+    </h5>
+    <h5 class="col-sm-4 col-xs-12">
+        <div id="result_google" style="background-color: white; border-radius: 10px; width: 90%;" class="btn btn-light">Output on<b> Mobile Net</b>- Pencil Box</div>
+    </h5>
+    <br>
+    <center style="font-size: 30px;">
+        Result- Google lens is more accurate
+    </center>
+</div>
+<div style="background-color: pink;">I have tested 3 images
+    <br>
+    In which <b>Google Lens</b> predicted correct once and <b>Mobile Net</b> also once
+    <br>
+    So according to my case study its a draw between <b>MobileNet</b> and <b>Google Lens</b></div>
+        </ol>
+        
+    </body>
+</html>
